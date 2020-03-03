@@ -2,7 +2,7 @@ import React from 'react';
 const Card = () => {
     return (
       <div>
-        <h1>Card here...</h1>
+        <button onClick={() => this.setState({liked: true})}>Like</button>
       </div>
     );
   }
